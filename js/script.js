@@ -6,11 +6,11 @@ var numeroKm = prompt("Dove vuoi andare? Indicami quanti km percorrerai:");
 var etaUtente = prompt("Qual'è la tua età?");
 // 33 anni
 // prezzo del biglietto definito in base ai km (0.21 € al km)
-var prezzoKm = (0.21 * numeroKm);
+var prezzoKm = (0.21 * numeroKm).toFixed(2);
 
 // variabili sconti
-  var sconto20minorenni = ((20 * prezzoKm) / 100);
-  var sconto40Over65 = ((40 * prezzoKm) / 100);
+  var sconto20minorenni = ((20 * prezzoKm) / 100).toFixed(2);
+  var sconto40Over65 = ((40 * prezzoKm) / 100).toFixed(2);
 
 // condizioni in base all'età
 if (etaUtente < 18) {
