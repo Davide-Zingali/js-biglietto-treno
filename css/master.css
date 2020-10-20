@@ -1,8 +1,11 @@
+/* regole generali */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* regole selettive */
 body {
   background-image: url(../img/sfondo-treno.jpg);
   background-size: cover;
