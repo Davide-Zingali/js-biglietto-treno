@@ -1,10 +1,10 @@
 // calcolo del prezzo del biglietto del treno
 // Richiesta per utente: numero di chilometri che vuole percorrere
 var numeroKm = prompt("Dove vuoi andare? Indicami quanti km percorrerai:");
-
+// 100km
 // Richiesta per utente: età del passeggero.
 var etaUtente = prompt("Qual'è la tua età?");
-
+// 33 anni
 // prezzo del biglietto definito in base ai km (0.21 € al km)
 var prezzoKm = (0.21 * numeroKm);
 
